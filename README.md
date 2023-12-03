@@ -23,3 +23,9 @@ climb_cliff(): If the player successfully climbs the cliff, they find a dragon's
 take_egg(): If the player chooses to take the dragon's egg, they safely descend the mountain, and the game congratulates them, indicating they've won.
 
 The game structure provides a branching narrative with different choices and outcomes, creating a simple interactive experience for the player.
+
+# Week 3 Task: Password Generator
+The code defines two functions: generate_password and generate_multiple_passwords.
+The generate_password function creates a random password of a specified length using a combination of letters, digits, and punctuation.
+The generate_multiple_passwords function generates a specified number of passwords by calling generate_password for each password length provided by the user.
+The main block of the script takes user input for the number of passwords, generates passwords, and displays them.
